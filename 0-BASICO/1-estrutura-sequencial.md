@@ -74,9 +74,30 @@ public static void main(String[] args) {
 
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
+**Resolução:**
+
+<details>
+<summary> Spoiler warning</summary>
+
+  
 ```java
-TODO
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        //notas de cada bimestre
+        double nota1 = 10;
+        double nota2 = 7.1;
+        double nota3 = 8.6;
+        double nota4 = 8.5;
+        //cálculo da média das notas
+        double media = (nota1 + nota2 + nota3 + nota4) / 4;
+        //exibição da média
+        System.out.print("A média é:" + media);
+
+    }
+}
 ```
+</details>
 
 * * *
 
